@@ -1,0 +1,30 @@
+.a1 {
+    width: 200px;
+}
+.a2 {
+    height: 75px;
+}
+.a3 {
+    font-size: 30px;
+}
+.a4 {
+    text-indent: 10px;
+}
+.a5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a6{
+    font-weight: bold;
+}
+.a7{
+    font-style: italic;
+}
+.a8{
+    color: brown;
+}
+.a9 {
+    color: blueviolet;
+}
+.a10 {
+    text-align: center;
+}

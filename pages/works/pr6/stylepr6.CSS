@@ -1,0 +1,38 @@
+.section {
+    color: bisque;
+}
+.content{
+    color: whitesmoke;
+}
+.bodu {
+    background: rgb(32, 32, 32)
+}
+.sidebar{
+    background: rgb(100, 99, 99);
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    font-size: 18px;
+    color: rgb(184, 253, 230);
+}
+.sectio {
+    color: rgb(1, 163, 163);
+}
+
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    size: 30px;
+}
+.header {
+    color: rgb(#BF0449);
+}
+.navi {
+    text-align: center;
+    text-decoration: none;
+    background: rgb(88, 88, 88);
+    height: 50px;
+    color: blueviolet;
+}
