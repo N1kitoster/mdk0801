@@ -1,30 +1,69 @@
-.a1 {
-    width: 200px;
+.p1 {
+text-align: justify;
 }
-.a2 {
-    height: 75px;
+.p2 {
+    text-indent: 50px;
 }
-.a3 {
-    font-size: 30px;
+.p3 {
+    line-height: 45px;
 }
-.a4 {
-    text-indent: 10px;
+.p4 {
+  vertical-align:middle;  
 }
-.a5 {
+.p5 {
+  word-spacing: 8px;  
+}
+.p6 {
+    letter-spacing: 5px;
+}
+.p7 {
+    white-space: pre;
+}
+.p8 {
+    tab-size: 16px;
+}
+.p9 {
+    text-transform: uppercase;
+}
+.p10 {
+    direction: rtl;
+}
+.p11 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.p12 {
+    text-decoration: line-through;
+}
+.p13::first-letter {
+font-size: 2em;
+margin-right: 2px;
+color: #ee9966;
+font-weight: bold;
+text-shadow: -1px -1px 1px white, 1px 1px 1px #9e9d99;
+}
+.p14 {
+    quotes: '\0022'  '\0022 ';
+}
+.p15 {
     font-family: Arial, Helvetica, sans-serif;
 }
-.a6{
-    font-weight: bold;
-}
-.a7{
+.p16 {
     font-style: italic;
 }
-.a8{
-    color: brown;
+.p17 {
+    font-variant: small-caps;
 }
-.a9 {
-    color: blueviolet;
+.p18 {
+    font-weight: bold;
 }
-.a10 {
-    text-align: center;
+.p19 {
+    font-size: 40px;
+}
+.p20 {
+    color: aquamarine;
+}
+.p21 {
+    font-weight: bold;
+    font-variant: small-caps;
 }

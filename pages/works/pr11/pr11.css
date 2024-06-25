@@ -1,0 +1,123 @@
+.img1 {
+    background: url(pr11img/1.jpeg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    
+}
+.img2{
+    background:url(pr11img/2.jpg) ;
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    
+}
+.img3 {
+    background: url(pr11img/3.jpg);
+    width: 300px;
+    height: 300px;
+    background-size:cover ; 
+    margin-left: 40px;
+    
+    
+}
+.a{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+.a1 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    height: 420px;
+}
+.a2 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.a3 {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+article {
+    
+    padding: 15px;
+}
+.a31 {
+    display: flex;
+    padding: 10px;
+    
+}
+.p31 {
+    margin-left: 10px;
+}
+button {
+    border-radius:15px 15px 15px 15px ;
+    
+}
+.b1{
+    width: 60%;
+    height: 50px;
+}
+.b2 {
+    width: 60%;
+    height: 50px;
+    background: rgb(0, 184, 0);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.d22 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.p11 {
+font-weight: bold;
+color: rgba(90, 90, 90, 0.5);
+}
+.heart1 {
+    background: url(pr11img/11.png);
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-size:cover ;
+    margin-right: 10px;
+    margin-top: 250px;
+}
+.heart2 {
+    background: url(pr11img/11.png);
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-size:cover ;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.p21 {
+    text-decoration:line-through;
+}
+.p22 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.d22 {
+    align-items: center;
+}
+.p31 {
+    color: red;
+}
+.b2:hover {
+    background-color: white;
+    color:rgb(0, 184, 0);
+    animation: backwards;
+    animation-duration: 2s;
+    
+}

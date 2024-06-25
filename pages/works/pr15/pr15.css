@@ -1,0 +1,58 @@
+ .class1 {
+background: url(pr15IMG/1.png);
+ background-size: cover; 
+ grid-row-start: 1;
+ grid-row-end: 4;
+}
+ .class2 {
+    background: url(pr15IMG/2.png);
+   
+    background-size: cover;
+
+
+}
+.class3{
+    background: url(pr15IMG/3.png);
+  
+    background-size: cover;
+}
+
+.class4{
+    background: url(pr15IMG/4.png);
+
+    background-size: cover;
+    grid-column-start:3 ;
+    grid-row-start:3 ;
+}
+
+.class5{
+    background: url(pr15IMG/5.png);
+   
+    background-size: cover;
+    grid-column-start:2 ;
+    grid-row-start:3 ;
+}  
+main {
+    display: grid;
+    grid-template-columns: 450px 400px 400px ;
+    grid-template-rows: 250px 250px 250px  ;
+    grid-column-gap: 10px; 
+    grid-row-gap: 10px; 
+}
+main  {
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    
+}
+.class6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: justify;
+    font-size: 20px;
+    align-content: center;
+    line-height: 35px;
+   
+}

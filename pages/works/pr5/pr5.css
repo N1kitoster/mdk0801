@@ -1,0 +1,32 @@
+.prew{
+    background: url(../../../img/израиль.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+}
+ul li {
+    display: inline-block;
+}
+
+li {
+padding: 10px;
+}
+
+.ar {
+    display: flex;
+     
+}
+
+aside {
+    width: 30%;
+}
+article {
+    width: 70%;
+}
+.pp {
+  width: 250px;
+  padding-left: 550px;
+}
+.pp {
+    top: -250px;
+}

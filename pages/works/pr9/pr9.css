@@ -1,0 +1,17 @@
+.line li {
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    vertical-align:middle;
+    background: pink;
+}
+.links a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid blue;
+    margin: 5px;
+    width: 150px;
+    background:blue;
+    color: white;
+}

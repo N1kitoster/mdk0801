@@ -1,0 +1,62 @@
+
+.class {
+width: 200px;
+height: 200px;
+background-color: green;
+border-radius: 50%;
+position: relative;
+animation-name:vper;
+animation-duration:2s ;
+animation-iteration-count: infinite;
+}
+@keyframes vper{
+    0% {
+        left: 0;
+       
+    }
+    50% {
+        left: 500px;
+    }
+    100% {
+        left: 0px;
+        
+    }
+}
+.box {
+    background: darkblue;
+    border-radius:50%;
+    cursor: pointer;
+    height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+
+}
+.box:hover {
+    background: #ff7b29;
+}
+.box1 {
+    background: chocolate;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+}
+.box1:hover {
+    background: aliceblue;
+}
+.box2 {
+    @keyframes slide { 
+        
+        
+    }
+}
+

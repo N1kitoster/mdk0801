@@ -1,0 +1,59 @@
+.z11 {
+    text-indent: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+.z111 {
+    text-indent: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.z1 {
+    text-align: center;
+}
+.main {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid orange;
+}
+
+.li {
+    display: inline-block;
+}
+.main ul {
+    background: orange;
+
+}
+main li, main li a {
+    display:inline-block;
+}
+.main li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+}
+.main li a:hover {
+    background:white;
+    color: black;
+}
+footer nav {
+text-align: center;
+margin: 20px 0;
+}
+footer li a {
+    color: #9B6100;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0 10px;
+}
+footer li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+

@@ -1,0 +1,27 @@
+*{
+	padding:0; margin:0;
+}
+p, h1{
+	margin:0 0 30px 0;
+}
+.content{
+	max-width:900px; margin:0 auto; padding:0 30px;
+}
+
+	@media screen and (max-width: 480px) {
+		.bridge-day {
+			max-width: 100%;
+		}
+	}
+	.bridge-night {
+		padding-bottom: 30px;
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.bridge-day {
+		max-width: 40%;
+		min-width: 200px;
+		float: left;
+		padding: 10px;
+	}

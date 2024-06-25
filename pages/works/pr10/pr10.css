@@ -1,0 +1,41 @@
+article {
+    text-align: center;
+    margin-top: 300px;
+}
+article h2 {
+    font-size: 30px;
+}
+div nav {
+    border: 1px solid rgba(80, 80, 80, 0.2);
+    width: 300px;
+    height: 130px;
+}
+div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+nav section, h4 {
+    margin-left:10px;
+    display: inline-block;
+}
+main {
+    font-family: rr; 
+}
+@font-face {
+    font-family: 'rr';
+    src: url(pr10fonts/rr.ttf);
+}
+img {
+    float:left;
+    margin-top:8px; 
+} 
+
+nav {
+    padding: 20px;
+
+}
+nav h4 {
+    margin-left: 25px;
+}
